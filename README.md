@@ -22,4 +22,11 @@ Find essential contact information, including the restaurant's address, phone nu
 ### 6. Tables and Forms
 Throughout the website, tables are used to present data in an organized manner. Forms are implemented for user interaction, such as submitting reviews.
 
+## Limitations
+
+### 1. No Ordering Features
+The website does'nt have any ordering thing has it was outside the scope of the course.
+
+### 2. Forms
+The course was just to learn the front-end so the site doesnt have any back-end.
 
