@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>    <!--This whole page fulfils requirement 5.2(a)-->
+        <!--This whole page fulfils requirement 5.2(b)-->
+        <!--This whole page fulfils requirement 5.7(a)-->
+
+
+    <!--This fulfils requirement 5.1(e)-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!--Linkn To rest and index stylesheets-->
+    <link href="reset.css" rel="stylesheet">
+    <link href="index.css" rel="stylesheet">
+</head>
+<body>
+    <header><!--Header photo and nav bar-->
+        <!--This fulfils requirement 5.1(c)
+        the picture is inside the div class header and uploaded in the css of this page-->
+        <div class="header">
+            <div class="header-text">
+               <h2> CULINARY ELEGANCE REDEFINED</h2>
+                       <!--Thisfulfils requirement 5.2(c)(RGBA)-->
+                <a href="about.html">
+                <button type="button" class="transparent-button">SILK SPOON</button>
+                </a>
+            </div>
+        </div>
+        
+        <div>
+            <!--Nsvigation-->
+            <nav>
+                <ul class="top-nav">
+                    <!--This fulfils requirement 5.2(d)-->
+                    <!--This fulfils requirement 5.1(b)-->
+                <li><a href="index.html" class="logo"><img src="Pic/logo1.png" height="50px" width="50px"></a></li>
+                <li><a href="menu.html" class="nav-element">Menu</a></li>
+                <li><a href="review.html" class="nav-element">Review</a></li>
+                <li><a href="contact.html" class="nav-element">Contact</a></li>
+                <li><a href="CrossReference.html" class="nav-element">Cross Reference </a></li>
+                
+            </ul>
+        </nav>
+        </div>
+        <!-- Countdown timer and Happy new year message-->
+        <div id="countdown" style="position: fixed; top: 20px; right: 20px; font-size: 16px; background-color: rgba(255, 255, 255, 0.8); padding: 10px; border-radius: 5px;"></div>
+        <div style="position: fixed; top: 50px; right: 20px; font-size: 14px; color: red;">Happy New Year!</div>
+        
+    </header>
+    <!--This fulfils requirent 5.1(a)-->
+    <section id="Story" class="center-content">
+        <h1>OUR STORY</h1>
+        <p>
+            Welcome to Silk Spoon, an exquisite haven for connoisseurs of fine dining.
+             Our premium chicken restaurant is a harmonious blend of opulence and culinary
+              artistry. From the moment you step into our refined ambiance, you are enveloped 
+               in an aura of prestige, where the quality of our meticulously sourced chicken
+               and the symphony of flavors in every dish elevate your dining experience to unparalleled
+              heights. Indulge in the extraordinary at Silk Spoon, where each bite is a testament to our
+             unwavering commitment to culinary excellence.</p>
+    </section>
+    <!--Video section-->
+    <!--This fulfils requirement 5.5(a)-->
+    <iframe 
+    src="https://www.youtube.com/embed/pq3Otf0zbdk">
+    </iframe>
+    <!--Lounge section-->
+    <div class="center-content"><h2>PRESTIGE LOUNGE</h2>
+        <p>Step into our Prestige Lounge, where luxury meets comfort and every moment is a retreat. Immerse yourself in the inviting ambiance, surrounded by tasteful decor and plush seating. Whether you're here for a casual gathering or a quiet solo escape, our lounge is designed to cater to your every mood.</p>
+    
+    <!--Image gallery-->
+        <div class="container">
+        <img src="Pic/Gallery1.jpg" alt="Gallery1" >
+        <img src="Pic/Gallery2.jpg" alt="Gallery2" >
+        <img src="Pic/Gallery3.jpg" alt="Gallery3" >
+        <img src="Pic/Gallery4.jpg" alt="Gallery4" >
+        <img src="Pic/Gallery5.jpg" alt="Gallery5" style="height: 600px; width: 400px;">
+        <img src="Pic/Gallery6.jpg" alt="Gallery6" style="height: 600px; width: 400px;">
+        </div>
+        </div>
+    <section id="bottom">
+        <div id="grid">
+        <div class="menupeek"><h1>SIGNATURE SELECTIONS </h1></div>
+        <div class="chicken">
+            <img src="Pic/Chicken.jpg" alt="Chicken" height="250px" width="250px">
+            <h3>GOLDEN HARMONY</h3>
+            <p>
+                "Indulge in the culinary symphony of our imaginary masterpiece, Golden Harmony –
+                 where succulent, golden-crisped chicken harmonizes with a secret blend of spices, 
+                 creating an enchanting melody of flavors that dances on your palate."</p>
+        </div>
+        <div class="sweet">
+            <img src="Pic/Waffle.jpg" alt="Waffle" height="250px" width="250px">
+            <h3>Strawberry Waffle</h3>
+            <p>"Savor the epitome of indulgence with our Berry Choco Waffle — a delicate fusion of 
+                fresh, plump berries and velvety chocolate atop flawlessly golden waffle layers. A 
+                symphony of clean, harmonious flavors awaits, elevating the art of waffle perfection
+                 to new heights."
+            </p>
+        </div>
+        </div>
+        
+    </section>
+    <!--Footer-->
+        <!--This fulfils requirement 5.1(f)-->
+    <footer>
+		<div class="clearfix">
+			<h4>ABOUT SILK SPOON</h4>
+			<ul>
+				<li><a href="about.html">Our Shop</a></li>
+				<li><a href="menu.html">Our Menu</a></li>
+				<li><a href="review.html">Review</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+            <!--Social Media Icons-->
+			<a href="https://www.facebook.com/" target="_blank"><img class="icon" src="Pic/facebook.png" alt="facebook" width="20" /></a>
+			<a href="https://www.instagram.com/"><img class="icon" src="Pic/instagram.png"alt="instagram" width="20" /></a>
+			<a href="https://twitter.com/"><img class="icon" src="Pic/twitter.png" alt="twitter" width="20"/></a>
+			<!--Copyrigth and last updated information-->
+            <!--This fulfils requirement 5.1(d)-->
+            <h6>© Silk Spoon Company. All rights reserved.<br>Design by Samar Khajuria.</h6>
+            <h6 id="lastUpdated"></h6>
+		</div>
+
+	</footer>
+    <!--Javascript for last updated information and countdown timer-->
+        <!--This fulfils requirement 5.1(g)-->
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            // Get the last modified timestamp of the current page
+            var lastUpdated = new Date(document.lastModified);
+
+            // Format the date to be more readable
+            var options = { year: 'numeric', month: 'long', day: 'numeric', hour: 'numeric', minute: 'numeric', second: 'numeric', timeZoneName: 'short' };
+            var formattedDate = lastUpdated.toLocaleDateString('en-US', options);
+
+            // Display the last updated timestamp in the footer
+            document.getElementById("lastUpdated").innerHTML = "Last Updated: " + formattedDate;
+        });
+        //This fulfils requirement 5.6(a)
+        document.addEventListener("DOMContentLoaded", function () {
+        // Set the target date for the countdown (December 31 of the current year)
+        var targetDate = new Date(new Date().getFullYear(), 11, 31, 23, 59, 59);
+
+        // Update the countdown every second
+        var countdownInterval = setInterval(updateCountdown, 1000);
+
+        // Function to update the countdown
+        function updateCountdown() {
+            // Get the current date and time
+            var currentDate = new Date();
+
+            // Calculate the time difference between the current date and the target date
+            var timeDifference = targetDate - currentDate;
+
+            // Check if the target date has passed
+            if (timeDifference < 0) {
+                clearInterval(countdownInterval);
+                document.getElementById("countdown").innerHTML = "Happy New Year!";
+            } else {
+                // Calculate days, hours, minutes, and seconds
+                var days = Math.floor(timeDifference / (1000 * 60 * 60 * 24));
+                var hours = Math.floor((timeDifference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                var minutes = Math.floor((timeDifference % (1000 * 60 * 60)) / (1000 * 60));
+                var seconds = Math.floor((timeDifference % (1000 * 60)) / 1000);
+
+                // Display the countdown on the page
+                document.getElementById("countdown").innerHTML = days + "d " + hours + "h " + minutes + "m " + seconds + "s";
+            }
+        }
+
+        // Initial call to update the countdown when the page loads
+        updateCountdown();
+    });
+    </script>
+</body>
+</html>
